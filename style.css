@@ -134,8 +134,14 @@ a {
 /* Header & Footer */
 
 footer {
-    padding-bottom: 0.5rem;
-    color: rgb(125,120,120);
+    padding-bottom: 2rem;
+    color: rgb(145,140,140);
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+footer p {
+    font-size: 0.8rem;
 }
 
 /* Images & Background Images */
@@ -164,3 +170,33 @@ footer {
     border-top-left-radius: 20rem;
     border-top-right-radius: 20rem;
 }
+
+
+/* Gridlex Media Queries 
+  @media (max-width: 36em)  Max 576px 	_xs-*
+  @media (max-width: 48em)  Max 768px 	_sm-*
+  @media (max-width: 64em)  Max 1024px 	_md-*
+  @media (max-width: 80em)  Max 1280px 	_lg-*
+*/
+
+/* Gridlex SM query - Max 768px - _sm-* */
+@media (max-width: 48em) {
+    .text-xl  { font-size: 3.5rem; }
+    .text-xxl { font-size: 6.5rem; }
+
+    .sm-block { display: block; }
+
+    .bg-leaves { background-image: url('/images/leaves-light.png'); }
+}
+
+* Gridlex XS media query - Max 576px - _xs-* */
+@media (max-width: 36em) {
+    .text-lg  { font-size: 2.5rem; }
+    .text-xl  { font-size: 2.5rem; }
+    .text-xxl { font-size: 4.5rem; }
+}	
+
+/* Custom XXS media query - Max 400px - _xs-* */
+@media (max-width: 25em) {
+    .text-xxl { font-size: 2.5rem; }
+}	
