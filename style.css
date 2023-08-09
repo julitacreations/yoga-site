@@ -187,6 +187,8 @@ footer p {
     .sm-block { display: block; }
 
     .bg-leaves { background-image: url('/images/leaves-light.png'); }
+
+    .text-center-sm {text-align: center; }
 }
 
 * Gridlex XS media query - Max 576px - _xs-* */
